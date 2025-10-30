@@ -1,0 +1,223 @@
+html body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  min-width: 100vw;
+  background: linear-gradient(to top, #90caf9, #ffffff);
+}
+
+header {
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  padding: 0;
+  border-bottom: #42a5f5 solid 2px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 40px;
+  height: 80px;
+}
+
+.logo {
+  font-size: 1.7em;
+  font-weight: bold;
+  color: #42a5f5;
+  letter-spacing: 2px;
+}
+
+.menu {
+  gap: 20px;
+  position: absolute;
+  right: 250px;
+}
+
+.menu a {
+  color: #42a5f5;
+  text-decoration: none;
+  font-size: 1.5em;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+.menu a:hover {
+  background: #c5e1f5;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #9ed0fa;
+  color: #333;
+  text-align: center;
+  padding: 35px 0;
+  font-size: 1.5em;
+  letter-spacing: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-top: #42a5f5 solid 2px;
+}
+
+.eteclogo {
+  width: 250px;
+  position: absolute;
+  right: 250px;
+  top: 15px;
+
+}
+
+.eteclogo2 {
+  width: 100px;
+  position: absolute;
+  right: 15px;
+  top: 3.5px;
+}
+
+p {
+  margin-left: 25px;
+}
+
+
+.submenu {
+  background-color: #42a5f5;
+  margin-bottom: 15px;
+  display: flex;
+  gap: 20px;
+  position: absolute;
+  top: 300px;
+  left: 775px;
+  height: 48px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 15px;
+  align-items: center;
+}
+
+.submenu-grande a {
+  color: white;
+  text-decoration: none;
+  font-size: 26px;
+}
+.submenu-grande {
+  background-color: #42a5f5;
+  margin-bottom: 15px;
+  display: flex;
+  gap: 20px;
+  position: absolute;
+  top: 110px;
+  left: 775px;
+  height: 48px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 15px;
+  align-items: center;
+}
+
+.submenu a {
+  color: white;
+  text-decoration: none;
+  font-size: 26px;
+}
+.lugartxt {
+  background-color: #42a5f5;
+  height: 290px;
+  width: 670px;
+  border-radius: 15px;
+  position: absolute;
+  top: 400px;
+  left: 775px;
+   
+}
+
+
+.lugartxt-grande {
+  background-color: #42a5f5;
+  height: 595px;
+  width: 670px;
+  border-radius: 15px;
+  position: absolute;
+  top: 176px;
+  left: 775px;
+
+}
+  
+.lugartxt-infan {
+  background-color: #42a5f5;
+  height: 250px;
+  width: 670px;
+  border-radius: 15px;
+  position: absolute;
+  top: 400px;
+  left: 775px;
+}
+
+
+.lugartxt-inspi{
+  background-color: #42a5f5;
+  height: 250px;
+  width: 670px;
+  border-radius: 15px;
+  position: absolute;
+  top: 400px;
+  left: 775px;
+}
+
+.lugartxt-carre{
+  background-color: #42a5f5;
+  height: 286px;
+  width: 670px;
+  border-radius: 15px;
+  position: absolute;
+  top: 400px;
+  left: 775px;
+}
+.fotoautora{
+  background-color: #42a5f5;
+  width: 270px;
+  height: 390px;
+  border-radius: 15px;
+  position: absolute;
+  top: 300px;
+  left: 480px;
+  
+}
+
+.pngautora {
+  width: 235px;
+  height: 310px;
+  position: absolute;
+  top: 30px;
+  left: 17px;
+}
+
+p{
+  margin: 25px;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 2px;
+  text-align: justify;
+}
+
+.fotoesquerda {
+  width: 450px;
+  height: 350px;
+  position: absolute;
+  top: 330px;
+  left: 40px;
+  border-radius: 15px;
+}
+
+.fotodireita {
+  width: 270px;
+  height: 350px;
+  position: absolute;
+  top: 330px;
+  left: 1560px;
+  border-radius: 8px;
+}

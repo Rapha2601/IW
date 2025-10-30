@@ -1,0 +1,142 @@
+html body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  min-width: 100vw;
+  background: linear-gradient(to top, #90caf9, #ffffff);
+}
+
+header {
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  padding: 0;
+  border-bottom: #42a5f5 solid 2px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 40px;
+  height: 80px;
+}
+
+.logo {
+  font-size: 1.7em;
+  font-weight: bold;
+  color: #42a5f5;
+  letter-spacing: 2px;
+}
+
+.menu {
+  gap: 20px;
+  position: absolute;
+  right: 250px;
+}
+
+.menu a {
+  color: #42a5f5;
+  text-decoration: none;
+  font-size: 1.5em;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+.menu a:hover {
+  background: #c5e1f5;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background:#9ed0fa;
+  color: #333;
+  text-align: center;
+  padding: 35px 0;
+  font-size: 1.5em;
+  letter-spacing: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-top: #42a5f5 solid 2px;
+}
+
+.eteclogo {
+  width: 250px;
+  position: absolute;
+  right: 250px;
+  top: 15px;
+
+}
+
+.eteclogo2 {
+  width: 100px;
+  position: absolute;
+  right: 15px;
+  top: 3.5px;
+}
+
+
+.livhome {
+  width: 520px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  position: absolute;
+  top: 270px;
+  left: 960px;
+}
+.lugartxt {
+  font-size: 30px;
+  color: #ffffff;
+  position: absolute;
+  top: 270px;
+  left: 520px;
+  width: 930px;
+  height: 450px;
+  background-color: #169EFF;
+  border-radius: 10px;
+}
+
+.nome1{
+  position: absolute;
+  top: 5px;
+}
+
+.nome2{
+  position: absolute;
+  top: 80px; ;
+}
+
+.nome3{
+  position: absolute;
+  top: 150px;
+}
+.nome4{
+  position: absolute;
+  top: 2px;
+}
+.nome4{
+  position: absolute;
+  top: 225px;
+}
+.nome5{
+  position: absolute;
+  top: 300px;
+}
+p {
+  margin-left: 25px;
+}
+
+.linha-vertical {
+  width: 2px;              
+  height: 450px;        
+  background-color:white;
+  margin: 10px;    
+  position: absolute;
+  left: 940px;
+  top: 260px;      
+}
